@@ -1,0 +1,10 @@
+.navigation {
+  color: $color-secondary;
+  font-size: 3rem;
+  margin-top: 7rem;
+  .nav-icons {
+    display: inline;
+    padding: 1.5rem 4.25rem;
+    border: 1px solid $color-secondary;
+  }
+}
