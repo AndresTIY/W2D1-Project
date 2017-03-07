@@ -1,21 +1,29 @@
 .navigation {
   color: $color-secondary;
-  font-size: 3rem;
-  margin-top: 7rem;
+  margin-top: 3rem;
   height: 5rem;
-  .nav-icons {
-    display: inline;
-    padding: 1.5rem 4.25rem;
-    border: 1px solid $color-secondary;
-    border-bottom: 2px solid $color-primary;
-  }
+
+    .nav-icons {
+      display: inline;
+      padding: 1rem 2rem;
+      border: 1px solid $color-secondary;
+      border-bottom: 2px solid $color-primary;
+    }
   .nav-icon-selected {
     display: inline;
-    padding: 1.5rem 4.25rem;
+    padding: 1rem 2rem;
     border-top: 4px solid $color-primary;
     border-right: 2px solid $color-primary;
     border-left: 2px solid $color-primary;
-
+    border-bottom: 5px solid $color-background;
     color: $color-primary;
+  }
+  @media (min-width: 510px) {
+    .navigation {
+      border-bottom: 2px solid $color-primary;
+    }
+    .nav-icons {
+      border-bottom: 2px solid $color-primary;
+    }
   }
 }
