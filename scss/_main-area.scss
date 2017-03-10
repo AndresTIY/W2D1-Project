@@ -32,3 +32,28 @@ main {
     margin-bottom: 6.5rem;
   }
 }
+@media (min-width: 510px) {
+  main {
+    .card {
+      float: left;
+      width: 10.5rem;
+      height: 5.75rem;
+    }
+    .fa {
+      padding: 1.5rem;
+      font-size: 1rem;
+    }
+    .icon-img {
+      padding-top: .8rem;
+    }
+    h1 {
+      font-size: 1rem;
+    }
+    .description {
+      display: inline;
+    }
+    p {
+      font-size: .7rem;
+    }
+  }
+}
